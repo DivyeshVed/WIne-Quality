@@ -31,7 +31,7 @@ In alot of machine learning project, the attributes are represented by the colum
 
 The output variable in a seneory variable:
 
-    1. Quality : This is a score between 0 and 12. The higher the score, the better it is. 
+1. Quality : This is a score between 0 and 12. The higher the score, the better it is. 
     
 
 
