@@ -1,5 +1,6 @@
 # Wine-Quality
 INTRODUCTION
+
 The aim of the project is to anaylse two datasets that tell us more about the quality of wine based on several phyicochemical properties. I am not going to look at factors like the price, grape types, brand and cost to determine the quality of the wine. 
 
 
@@ -26,6 +27,7 @@ The aim of the project is to anaylse two datasets that tell us more about the qu
 
 
 CITATIONS
+
 The data sets that are cited below:
   P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. 
   Modeling wine preferences by data mining from physicochemical properties.
