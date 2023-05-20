@@ -1,4 +1,4 @@
-# Wine-Quality
+# Wine Quality
 INTRODUCTION
 
 The aim of the project is to anaylse two datasets that tell us more about the quality of wine based on several phyicochemical properties. I am not going to look at factors like the price, grape types, brand and cost to determine the quality of the wine. 
