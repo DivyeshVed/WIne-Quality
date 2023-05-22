@@ -39,7 +39,12 @@ The following steps were carried out as part of the analysis of the datasets:
 
 1. Quality comparison between red and white wine : The output variable for both datasets is the quality of the wine, which is represented by a numeric value between 0 and 12. We compare the spread of the quality data for red and white wine using a histrogram plot below as shown.
     
-<img src="./figures/Alcohol-content-vs-Quality.jpeg" alt="Description of the image">
+<div style="text-align: center;">
+  <img src="./figures/Alcohol-content-vs-Quality.jpeg" alt="Histogram of Alcohol Content vs Quality in Red & White Wines">
+</div>
+    
+
+
 
     
 
