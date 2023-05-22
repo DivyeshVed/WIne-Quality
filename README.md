@@ -33,6 +33,11 @@ The output variable in a seneory variable:
 
     1. Quality : This is a score between 0 and 12. The higher the score, the better it is. 
     
+DATA ANALYSIS
+
+The following steps were carried out as part of the analysis of the datasets:
+    1. Quality comparison between red and white wine : The output variable for both datasets is the quality of the wine, which is represented by a numeric value between 0 and 12. We compare the spread of the quality data for red and white wine using a scatter plot below as shown. 
+    
 
 
 
