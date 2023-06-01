@@ -58,22 +58,6 @@ The following steps were carried out as part of the analysis of the datasets:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-THINGS LEARNT
-
-1. Standardizing Data
-This is a preprocessing step before machine learning models are created. Standardization is used when the features of the input data have large differences between their ranges or when they are measured in different units. 
-
 CITATIONS
 
 The data sets that are cited below:
