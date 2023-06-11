@@ -43,6 +43,13 @@ The following steps were carried out as part of the analysis of the datasets:
       <img src="./figures/Quality-Distribution.jpeg" alt="Bar Chart of Quality Distribution of Red and White Wines">
     </p>
 
+2. Alcohol Content comparison between red and white wine : We want to try look at the alcohol content distribution in red and white wines. This can be shown in the bar char shown below.
+
+    <p align="center">
+      <img src="./figures/Alcohol-Distribution.jpeg" alt="Bar Chart of Alcohol Distribution of Red and White Wines">
+    </p>
+
+
 
 
 
