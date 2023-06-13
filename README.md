@@ -44,9 +44,9 @@ The following steps were carried out as part of the analysis of the datasets
 
   Modelling the Quality distribution as a normal distribution, the distributions are made up of these parameters:
   The mean for the quality of red wine is: 5.6360225140712945. <br>
-  The std for the quality of red wine is: 0.807569439734705.
-  The mean for the quality of white wine is: 5.87790935075541.
-  The std for the quality of white wine is: 0.8856385749678312.
+  The std for the quality of red wine is: 0.807569439734705. <br>
+  The mean for the quality of white wine is: 5.87790935075541. <br>
+  The std for the quality of white wine is: 0.8856385749678312. <br>
 
 2. Alcohol Content comparison between red and white wine : We want to try look at the alcohol content distribution in red and white wines. This can be shown in the bar char below.
 
