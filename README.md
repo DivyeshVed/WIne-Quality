@@ -42,7 +42,7 @@ The following steps were carried out as part of the analysis of the datasets
       <img src="./figures/Quality-Distribution.jpeg" alt="Bar Chart of Quality Distribution of Red and White Wines">
     </p>
 
-  Modelling the Quality distribution as a normal distribution, the distributions are made up of these parameters:
+  Modelling the Quality distribution as a normal distribution, the distributions are made up of these parameters: <br>
   The mean for the quality of red wine is: 5.6360225140712945. <br>
   The std for the quality of red wine is: 0.807569439734705. <br>
   The mean for the quality of white wine is: 5.87790935075541. <br>
