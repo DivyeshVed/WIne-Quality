@@ -54,12 +54,11 @@ The following steps were carried out as part of the analysis of the datasets
       <img src="./figures/Alcohol-Distribution.jpeg" alt="Bar Chart of Alcohol Distribution of Red and White Wines">
     </p>
 
-    Modelling the Quality distribution as a normal distribution, the distributions are made up of these parameters: <br>
-    The mean for the quality of red wine is: 5.6360225140712945. <br>
-    The std for the quality of red wine is: 0.807569439734705. <br>
-    The mean for the quality of white wine is: 5.87790935075541. <br>
-    The std for the quality of white wine is: 0.8856385749678312. <br>
-
+    Modelling the Alcohol distribution as a normal distribution, the distributions are made up of these parameters: <br>
+    The mean for the alcohol in the red wine is: 10.422983114446529. <br>
+    The std for alcohol in red wine is: 1.0656675818473946. <br>
+    The mean for the slcohol in the white wine is: 10.514267047774602. <br>
+    The std for alcohol in the white wine is: 1.230620567757318. <br>
 
 
 
