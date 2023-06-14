@@ -60,6 +60,8 @@ The following steps were carried out as part of the analysis of the datasets
     The mean for the slcohol in the white wine is: 10.514267047774602. <br>
     The std for alcohol in the white wine is: 1.230620567757318. <br>
 
+3. 
+
 
 
 
