@@ -84,8 +84,7 @@ The following steps were carried out as part of the analysis of the datasets.
 ## 2. Correlation between feautres and our target feature. 
 <p>Different features may be related to our target feautre (Quality) in different ways. We hope to explore these correlations here using the correlation matrix caluclated for the training, validation and tests datasets.</p>
 <p>For the red wine dataset, we get the following figures to represent the coorelation between the target feature (quality) and the rest of the features.</p>
-  <center>
-    <pre>
+    <pre align="center">
     fixed acidity:           0.124052<br>
     volatile acidity:       -0.390558<br>
     citric acid:             0.226373<br>
@@ -99,7 +98,6 @@ The following steps were carried out as part of the analysis of the datasets.
     alcohol:                 0.476166<br>
     quality:                 1.000000<br>
     </pre>
-  </center>
 <p>We can see the correlation matrix below, which shows the relations between all features in the datasets.</p>
 <img src="./figures/Correlation_Matrix_Red_Wine.jpeg" alt="Correlation Matrix for features in Red Wine dataset.">
 
