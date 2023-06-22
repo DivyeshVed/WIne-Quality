@@ -37,8 +37,8 @@ DATA ANALYSIS
 
 The following steps were carried out as part of the analysis of the datasets
 <h2>1. Distribution of single variables </h2>
-
-  1. Quality comparison between red and white wine : The output variable for both datasets is the quality of the wine, which is represented by a numeric value between 0 and 12. We compare the spread of the quality data for red and white wine using a bar chart as shown below.
+<ul>
+  <li>Quality comparison between red and white wine : The output variable for both datasets is the quality of the wine, which is represented by a numeric value between 0 and 12. We compare the spread of the quality data for red and white wine using a bar chart as shown below.
 
       <p align="center">
         <img src="./figures/Quality-Distribution.jpeg" alt="Bar Chart of Quality Distribution of Red and White Wines">
@@ -49,6 +49,7 @@ The following steps were carried out as part of the analysis of the datasets
       The std for the quality of red wine is: 0.807569439734705. <br>
       The mean for the quality of white wine is: 5.87790935075541. <br>
       The std for the quality of white wine is: 0.8856385749678312. <br>
+  </li>
 
   2. Alcohol Content comparison between red and white wine : We want to try look at the alcohol content distribution in red and white wines as alcohol. This can be shown in the bar char below.
 
@@ -63,7 +64,7 @@ The following steps were carried out as part of the analysis of the datasets
       The std for alcohol in the white wine is: 1.230620567757318. <br>
 
 3. 
-
+</ul>
 
 
 
