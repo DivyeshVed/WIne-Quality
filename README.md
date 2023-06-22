@@ -1,7 +1,7 @@
 # Wine Quality
 ## INTRODUCTION
 
-The aim of the project is to anaylse two datasets that tell us more about the quality of wine based on several phyicochemical properties. Due to privacy and logisitc issues, only physicochemical variables are available and seneory output varibales are available. 
+The aim of the project is to anaylse two datasets that tell us more about the quality of wine based on several phyicochemical properties. Due to privacy and logisitc issues, only physicochemical variables are available and seneory output varibales are available. We will explore different machine learning models to be able to predict the quality of the wine. 
 
 ## ATTRIBUTES
 
@@ -34,7 +34,7 @@ The output variable is a sensory variable:
 1. Quality : This is a score between 0 and 12. The higher the score, the better the quality of the wine is. 
     
 ## DATA ANALYSIS
-The following steps were carried out as part of the analysis of the datasets
+The following steps were carried out as part of the analysis of the datasets. 
 ### 1. Distribution of single variables
 <p>The distribution of a couple of single variables will be explored first to determine if the variables can be modeled using a normal distribution.</p>
 <ul>
@@ -78,6 +78,32 @@ The following steps were carried out as part of the analysis of the datasets
   The std for pH in the white wine is: 0.1510005996150668. <br></p>
   </li>
 </ul>
+
+<p>From the intial analysis above, we can see two things: The first being the fact that the red win dataset is much smaller than the white wine dataset. Secondly, the means and standard deviations for btoh red and wine data are pretty similar atleast for the features shown above. This tells us that the spread of data for both wines is very similar, making the comparison one that should yeild some interesting results. </p>
+
+## 2. Correlation between feautres and our target feature. 
+<p>Different features may be related to our target feautre (Quality) in different ways. We hope to explore these correlations here using the correlation matrix caluclated for the training, validation and tests datasets.</p>
+<p>For the red wine dataet, we get the following figures to represent the coorelation between the target feature (quality) and the rest of the features.
+
+fixed acidity           0.124052
+volatile acidity       -0.390558
+citric acid             0.226373
+residual sugar          0.013732
+chlorides              -0.128907
+free sulfur dioxide    -0.050656
+total sulfur dioxide   -0.185100
+density                -0.174919
+pH                     -0.057731
+sulphates               0.251397
+alcohol                 0.476166
+quality                 1.000000
+</p>
+
+
+
+
+
+
 
 CITATIONS
 
