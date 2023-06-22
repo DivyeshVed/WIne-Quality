@@ -1,9 +1,9 @@
 # Wine Quality
-INTRODUCTION
+## INTRODUCTION
 
 The aim of the project is to anaylse two datasets that tell us more about the quality of wine based on several phyicochemical properties. Due to privacy and logisitc issues, only physicochemical variables are available and seneory output varibales are available. 
 
-ATTRIBUTES
+## ATTRIBUTES
 
 In alot of machine learning project, the attributes are represented by the columns in our dataset. For our case, we have 12 features outline below:
 
@@ -37,12 +37,12 @@ The output variable in a sensory variable:
 
 The following steps were carried out as part of the analysis of the datasets
 ### 1. Distribution of single variables
-<p>The distribution of single variables will be explored first to determine if the variables can be modeled using a normal distribution.</p>
+<p>The distribution of a couple of single variables will be explored first to determine if the variables can be modeled using a normal distribution.</p>
 <ul>
   <li> 
   <p>Quality comparison between red and white wine : The output variable for both datasets is the  quality of the wine, which is represented by a numeric value between 0 and 12. We compare the spread of the quality data for red and white wine using a bar chart as shown below.</p>
   <img src="./figures/Quality-Distribution.jpeg" alt="Bar Chart of Quality Distribution of Red and White Wines">
-  <p>Modelling the Quality distribution as a normal distribution. The distributions are made up of these parameters: <br>
+  <p>Modeling the Quality distribution as a normal distribution. The distributions are made up of these parameters: <br>
   The mean for the quality of red wine is: 5.6360225140712945. <br>
   The std for the quality of red wine is: 0.807569439734705. <br>
   The mean for the quality of white wine is: 5.87790935075541. <br>
@@ -52,7 +52,7 @@ The following steps were carried out as part of the analysis of the datasets
   <li>
   <p>Alcohol Content comparison between red and white wine : We want to try look at the alcohol content distribution in red and white wines as alcohol. This can be shown in the bar char below.</p>
   <img src="./figures/Alcohol-Distribution.jpeg" alt="Bar Chart of Alcohol Distribution of Red and White Wines">
-  <p>Modelling the Alcohol distribution as a normal distribution. The distributions are made up of these parameters: <br>
+  <p>Modeling the Alcohol distribution as a normal distribution. The distributions are made up of these parameters: <br>
   The mean for the alcohol in the red wine is: 10.422983114446529. <br>
   The std for alcohol in red wine is: 1.0656675818473946. <br>
   The mean for the slcohol in the white wine is: 10.514267047774602. <br>
@@ -62,11 +62,25 @@ The following steps were carried out as part of the analysis of the datasets
   <li>
   Density comparison between red and white wine : We want to try look at the Density distribution in red and white wines as alcohol. This can be shown in the bar char below.</p>
   <img src="./figures/Density-Distribution.jpeg" alt="Bar Chart of Density Distribution of Red and White Wines">
-  <p>Modelling the Density Distribution as a normal distriution. The distributions are made up of these parameters: <br>
+  <p>Modeling the Density Distribution as a normal distriution. The distributions are made up of these parameters: <br>
   The mean for the density in the red wine is: 0.9967466791744841. <br>
   The std for density in red wine is: 0.0018873339538425554. <br>
   The mean for density slcohol in the white wine is: 0.9940273764801959. <br>
   The std for density in the white wine is: 0.0029909069169369337. <br></p>
+  </li>
+
+  <li>
+  pH comparison between red and white wine : We want to try look at the pH distribution in red and white wines as alcohol. This can be shown in the bar char below.</p>
+  <img src="./figures/pH-Distribution.jpeg" alt="Bar Chart of pH Distribution of Red and White Wines">
+  <p>Modeling the pH Distribution as a normal distriution. The distributions are made up of these parameters: <br>
+  The mean for the pH in the red wine is: 3.3111131957473416. <br>
+  The std for pH in red wine is: 0.15438646490354277. <br>
+  The mean for pH slcohol in the white wine is: 3.1882666394446715. <br>
+  The std for pH in the white wine is: 0.1510005996150668. <br></p>
+  </li>
+
+  <li>
+  
   </li>
 
 </ul>
