@@ -48,18 +48,17 @@ The following steps were carried out as part of the analysis of the datasets
   The std for the quality of white wine is: 0.8856385749678312. <br> </p>
   </li>
 
-  2. Alcohol Content comparison between red and white wine : We want to try look at the alcohol content distribution in red and white wines as alcohol. This can be shown in the bar char below.
+  <li>
+  <p>Alcohol Content comparison between red and white wine : We want to try look at the alcohol content distribution in red and white wines as alcohol. This can be shown in the bar char below.</p>
 
-      <p align="center">
         <img src="./figures/Alcohol-Distribution.jpeg" alt="Bar Chart of Alcohol Distribution of Red and White Wines">
-      </p>
 
-      Modelling the Alcohol distribution as a normal distribution, the distributions are made up of these parameters: <br>
-      The mean for the alcohol in the red wine is: 10.422983114446529. <br>
-      The std for alcohol in red wine is: 1.0656675818473946. <br>
-      The mean for the slcohol in the white wine is: 10.514267047774602. <br>
-      The std for alcohol in the white wine is: 1.230620567757318. <br>
-
+  <p>Modelling the Alcohol distribution as a normal distribution, the distributions are made up of these parameters: <br>
+  The mean for the alcohol in the red wine is: 10.422983114446529. <br>
+  The std for alcohol in red wine is: 1.0656675818473946. <br>
+  The mean for the slcohol in the white wine is: 10.514267047774602. <br>
+  The std for alcohol in the white wine is: 1.230620567757318. <br></p>
+  </li>
 3. 
 </ul>
 
