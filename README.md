@@ -100,9 +100,26 @@ The following steps were carried out as part of the analysis of the datasets.
       </p>
 <p>We can see the correlation matrix below, which shows the relations between all features in the datasets.</p>
 <img src="./figures/Correlation_Matrix_Red_Wine.jpeg" alt="Correlation Matrix for features in Red Wine dataset.">
-<p>Based on the values above, </p>
-
-
+<p>Based on the values above, we can see that for Red Wine, volatile acidity is least correlated to the quality, and the alcohol content is the most correlated. This simply hints to us that the more alcohol there is in the wine, the high the change of it being or better quality, as alcohol seems to have the greatest positive relation with quality.</p>
+<p>For the white wine dataset, we get the following figures to represent the correlation between the target feature (Quality) and the rest of the features.</p>
+      <p align="center">
+        quality:                 1.000000<br>
+        alcohol:                 0.435575<br>
+        pH:                      0.099427<br>
+        sulphates:               0.053678<br>
+        free sulfur dioxide:     0.008158<br>
+        citric acid:            -0.009209<br>
+        residual sugar:         -0.097577<br>
+        fixed acidity:          -0.113663<br>
+        total sulfur dioxide:   -0.174737<br>
+        volatile acidity:       -0.194723<br>
+        chlorides:              -0.209934<br>
+        density:                -0.307123<br>
+      </p>
+<p>We can see the correlation matrix below, which shows the relations between all features in the datasets.</p>
+<img src="./figures/Correlation_Matrix_Red_Wine.jpeg" alt="Correlation Matrix for features in Red Wine dataset.">
+<p>Based on the values above, we can see that for White Wine, density is least correlated to the quality, and the alcohol content is the most correlated </p>
+<p>For both wines, alcohol content is failr correlated to the quality. As for the white wine, more features are negatively correlated to our target feature, telling us that there are more features whose increase may lead to a decrease in the quality of white wine. The negative correlations of white wine are stronger than those of red wine (as the values are larger negatives) further telling us that white wine may be more vulnerable to a change in quality than red wine is, such that it is easier to change the quality of white wine compared to that of red wine.</p>
 
 
 
