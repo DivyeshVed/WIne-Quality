@@ -40,6 +40,7 @@ The following steps were carried out as part of the analysis of the datasets
 <ul>
   <li> 
       Quality comparison between red and white wine : The output variable for both datasets is the    quality of the wine, which is                represented by a numeric value between 0 and 12. We compare the spread of the quality data for red and white wine using a bar chart as       shown below.
+      
       <img src="./figures/Quality-Distribution.jpeg" alt="Bar Chart of Quality Distribution of Red and White Wines">
       
       Modelling the Quality distribution as a normal distribution, the distributions are made up of these parameters: <br>
