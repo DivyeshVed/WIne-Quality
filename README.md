@@ -33,7 +33,7 @@ The output variable in a seneory variable:
 
 1. Quality : This is a score between 0 and 12. The higher the score, the better the quality of the wine is. 
     
-DATA ANALYSIS
+## DATA ANALYSIS
 
 The following steps were carried out as part of the analysis of the datasets
 <h2>1. Distribution of single variables </h2>
