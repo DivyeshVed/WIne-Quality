@@ -81,26 +81,26 @@ The following steps were carried out as part of the analysis of the datasets.
 
 <p>From the intial analysis above, we can see two things: The first being the fact that the red win dataset is much smaller than the white wine dataset. Secondly, the means and standard deviations for btoh red and wine data are pretty similar atleast for the features shown above. This tells us that the spread of data for both wines is very similar, making the comparison one that should yeild some interesting results. </p>
 
-## 2. Correlation between feautres and our target feature. 
+## 2. Correlation between features and our target feature. 
 <p>Different features may be related to our target feautre (Quality) in different ways. We hope to explore these correlations here using the correlation matrix caluclated for the training, validation and tests datasets.</p>
-<p>For the red wine dataset, we get the following figures to represent the coorelation between the target feature (quality) and the rest of the features.</p>
+<p>For the red wine dataset, we get the following figures to represent the correlation between the target feature (Quality) and the rest of the features.</p>
     <p align="center">
-    fixed acidity:           0.124052<br>
-    volatile acidity:       -0.390558<br>
-    citric acid:             0.226373<br>
-    residual sugar:          0.013732<br>
-    chlorides:              -0.128907<br>
-    free sulfur dioxide:    -0.050656<br>
-    total sulfur dioxide:   -0.185100<br>
-    density:                -0.174919<br>
-    pH:                     -0.057731<br>
-    sulphates:               0.251397<br>
-    alcohol:                 0.476166<br>
     quality:                 1.000000<br>
+    alcohol:                 0.476166<br>
+    sulphates:               0.251397<br>
+    citric acid:             0.226373<br>
+    fixed acidity:           0.124052<br>
+    residual sugar:          0.013732<br>
+    free sulfur dioxide:    -0.050656<br>
+    pH:                     -0.057731<br>
+    chlorides:              -0.128907<br>
+    density:                -0.174919<br>
+    total sulfur dioxide:   -0.185100<br>
+    volatile acidity:       -0.390558<br>
     </p>
 <p>We can see the correlation matrix below, which shows the relations between all features in the datasets.</p>
 <img src="./figures/Correlation_Matrix_Red_Wine.jpeg" alt="Correlation Matrix for features in Red Wine dataset.">
-
+<p>Based on the values above, </p>
 
 
 
