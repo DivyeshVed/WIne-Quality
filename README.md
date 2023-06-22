@@ -57,7 +57,16 @@ The following steps were carried out as part of the analysis of the datasets
   The mean for the slcohol in the white wine is: 10.514267047774602. <br>
   The std for alcohol in the white wine is: 1.230620567757318. <br></p>
   </li>
-3. 
+
+  <li>
+  Density comparison between red and white wine : We want to try look at the Density distribution in red and white wines as alcohol. This can be shown in the bar char below.</p>
+  <img src="./figures/Density-Distribution.jpeg" alt="Bar Chart of Density Distribution of Red and White Wines">
+  <p>The mean for the density in the red wine is: 0.9967466791744841
+  The std for density in red wine is: 0.0018873339538425554
+  The mean for density slcohol in the white wine is: 0.9940273764801959
+  The std for density in the white wine is: 0.0029909069169369337</p>
+  </li>
+
 </ul>
 
 
