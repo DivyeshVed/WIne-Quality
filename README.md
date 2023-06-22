@@ -29,14 +29,14 @@ In alot of machine learning project, the attributes are represented by the colum
 
 11. Alcohol : Refers to the amount of ethanol in the wine. It is a natural byproduct of the fermentation process. Measured in volume, the alcohol content is affected by the ripeness of the grape and fermetation process. It plays an importnat role in the taste, mouthfeel and warmth perception of the wine. 
 
-The output variable in a seneory variable:
+The output variable in a sensory variable:
 
 1. Quality : This is a score between 0 and 12. The higher the score, the better the quality of the wine is. 
     
 ## DATA ANALYSIS
 
 The following steps were carried out as part of the analysis of the datasets
-<h2>1. Distribution of single variables </h2>
+### 1. Distribution of single variables
 <p>The distribution of single variables will be explored first to determine if the variables can be modeled using a normal distribution.</p>
 <ul>
   <li> 
