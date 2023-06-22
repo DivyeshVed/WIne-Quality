@@ -85,18 +85,18 @@ The following steps were carried out as part of the analysis of the datasets.
 <p>Different features may be related to our target feautre (Quality) in different ways. We hope to explore these correlations here using the correlation matrix caluclated for the training, validation and tests datasets.</p>
 <p>For the red wine dataet, we get the following figures to represent the coorelation between the target feature (quality) and the rest of the features.
 
-fixed acidity           0.124052
-volatile acidity       -0.390558
-citric acid             0.226373
-residual sugar          0.013732
-chlorides              -0.128907
-free sulfur dioxide    -0.050656
-total sulfur dioxide   -0.185100
-density                -0.174919
-pH                     -0.057731
-sulphates               0.251397
-alcohol                 0.476166
-quality                 1.000000
+fixed acidity           0.124052<br>
+volatile acidity       -0.390558<br>
+citric acid             0.226373<br>
+residual sugar          0.013732<br>
+chlorides              -0.128907<br>
+free sulfur dioxide    -0.050656<br>
+total sulfur dioxide   -0.185100<br>
+density                -0.174919<br>
+pH                     -0.057731<br>
+sulphates               0.251397<br>
+alcohol                 0.476166<br>
+quality                 1.000000<br>
 </p>
 
 
