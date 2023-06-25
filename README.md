@@ -60,7 +60,7 @@ The following steps were carried out as part of the analysis of the datasets.
 
   <li>
   Density comparison between red and white wine : We want to try look at the Density distribution in red and white wines as alcohol. This can be shown in the bar char below.</p>
-  <img src="./figures/Density-Distribution.jpeg" alt="Bar Chart of Density Distribution of Red and White Wines">
+  <img src="./figures/Density-Distribution.jpeg" alt="Histogram of Density Distribution of Red and White Wines">
   <p>From the histogram, we can see that there are two peaks for the white wine data, thus the data is bimodial, and there is one peak for the red white wine data, thus the respective data is normally distributed. The distributions are made up of these parameters: <br>
   The mean for the density in the red wine is: 0.9967466791744841. <br>
   The std for density in red wine is: 0.0018873339538425554. <br>
