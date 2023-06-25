@@ -70,7 +70,7 @@ The following steps were carried out as part of the analysis of the datasets.
 
   <li>
   pH comparison between red and white wine : We want to try look at the pH distribution in red and white wines as alcohol. This can be shown in the bar char below.</p>
-  <img src="./figures/pH-Distribution.jpeg" alt="Bar Chart of pH Distribution of Red and White Wines">
+  <img src="./figures/pH-Distribution-Hist.jpeg" alt="Bar Chart of pH Distribution of Red and White Wines">
   <p>Modeling the pH as a normal distriution. The distributions are made up of these parameters: <br>
   The mean for the pH in the red wine is: 3.3111131957473416. <br>
   The std for pH in red wine is: 0.15438646490354277. <br>
