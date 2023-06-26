@@ -121,7 +121,15 @@ The following steps were carried out as part of the analysis of the datasets.
   <p>Based on the values above, we can see that for White Wine, density is least correlated to the quality, and the alcohol content is the most correlated </p>
   <p>For both wines, alcohol content is failr correlated to the quality. As for the white wine, more features are negatively correlated to our target feature, telling us that there are more features whose increase may lead to a decrease in the quality of white wine. The negative correlations of white wine are stronger than those of red wine (as the values are larger negatives) further telling us that white wine may be more vulnerable to a change in quality than red wine is, such that it is easier to change the quality of white wine compared to that of red wine.</p>
 
+## MACHINE LEARNING
+The data has been split in the following ways:
+<li>The red wine training data has 1067 rows.</li>
+<li>The red wine test data has 532 rows.</li>
+<li>The white wine training data has 3266 rows.</li>
+<li>The white wine test data has 1631 rows.</li>
 
+### 1. Logistic Regression Model
+<p>The first linear supervised model that is implemented is the Logistic Regression Model. </p>
 CITATIONS
 
 The data sets that are cited below:
