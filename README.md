@@ -1,9 +1,9 @@
-# Wine Quality
-## INTRODUCTION
+# <b>Wine Quality</b>
+## <b><u>INTRODUCTION</u></b>
 
 The aim of the project is to anaylse two datasets that tell us more about the quality of wine based on several phyicochemical properties. Due to privacy and logisitc issues, only physicochemical variables are available and seneory output varibales are available. We will explore different machine learning models to be able to predict the quality of the wine. 
 
-## ATTRIBUTES
+## <b><u>ATTRIBUTES</u></b>
 
 In alot of machine learning project, the attributes are represented by the columns in our dataset. For our case, we have 12 features outline below:
 
@@ -33,9 +33,9 @@ The output variable is a sensory variable:
 
 1. Quality : This is a score between 0 and 12. The higher the score, the better the quality of the wine is. 
     
-## DATA ANALYSIS
+## <b><u>DATA ANALYSIS</u></b>
 The following steps were carried out as part of the analysis of the datasets. 
-### 1. Distribution of single variables
+### <u>Distribution of single variables</u>
 <p>The distribution of a couple of single variables will be explored first to determine if the variables can be modeled using a normal distribution.</p>
 <ul>
   <li> 
@@ -79,59 +79,123 @@ The following steps were carried out as part of the analysis of the datasets.
   </li>
 </ul>
 
-<p>From the intial analysis above, we can see two things: The first being the fact that the red win dataset is much smaller than the white wine dataset. Secondly, the means and standard deviations for btoh red and wine data are pretty similar atleast for the features shown above. This tells us that the spread of data for both wines is very similar, making the comparison one that should yeild some interesting results. </p>
+<p>From the initial analysis above, we can see two things: The first being the fact that the red wine dataset is much smaller than the white wine dataset. Secondly, the means and standard deviations for both red and wine data are pretty similar atleast for the features shown above. This tells us that the spread of data for both wines is very similar, making the comparison one that should yeild some interesting results. </p>
 
-## 2. Correlation between features and our target feature. 
+## <u>Correlation between features and our target feature.</u>
   <p>Different features may be related to our target feautre (Quality) in different ways. We hope to explore these correlations here using the correlation matrix caluclated for the training, validation and tests datasets.</p>
   <p>For the red wine dataset, we get the following figures to represent the correlation between the target feature (Quality) and the rest of the features.</p>
-        <p align="center">
-          quality:                 1.000000<br>
-          alcohol:                 0.476166<br>
-          sulphates:               0.251397<br>
-          citric acid:             0.226373<br>
-          fixed acidity:           0.124052<br>
-          residual sugar:          0.013732<br>
-          free sulfur dioxide:    -0.050656<br>
-          pH:                     -0.057731<br>
-          chlorides:              -0.128907<br>
-          density:                -0.174919<br>
-          total sulfur dioxide:   -0.185100<br>
-          volatile acidity:       -0.390558<br>
-        </p>
+  <p style="text-align: justify;">
+    quality:                 1.000000<br>
+    alcohol:                 0.476166<br>
+    sulphates:               0.251397<br>
+    citric acid:             0.226373<br>
+    fixed acidity:           0.124052<br>
+    residual sugar:          0.013732<br>
+    free sulfur dioxide:    -0.050656<br>
+    pH:                     -0.057731<br>
+    chlorides:              -0.128907<br>
+    density:                -0.174919<br>
+    total sulfur dioxide:   -0.185100<br>
+    volatile acidity:       -0.390558<br>
+  </p>
   <p>We can see the correlation matrix below, which shows the relations between all features in the datasets.</p>
   <img src="./figures/Correlation_Matrix_Red_Wine.jpeg" alt="Correlation Matrix for features in Red Wine dataset.">
   <p>Based on the values above, we can see that for Red Wine, volatile acidity is least correlated to the quality, and the alcohol content is the most correlated. This simply hints to us that the more alcohol there is in the wine, the high the change of it being or better quality, as alcohol seems to have the greatest positive relation with quality.</p>
   <p>For the white wine dataset, we get the following figures to represent the correlation between the target feature (Quality) and the rest of the features.</p>
-        <p align="center">
-          quality:                 1.000000<br>
-          alcohol:                 0.435575<br>
-          pH:                      0.099427<br>
-          sulphates:               0.053678<br>
-          free sulfur dioxide:     0.008158<br>
-          citric acid:            -0.009209<br>
-          residual sugar:         -0.097577<br>
-          fixed acidity:          -0.113663<br>
-          total sulfur dioxide:   -0.174737<br>
-          volatile acidity:       -0.194723<br>
-          chlorides:              -0.209934<br>
-          density:                -0.307123<br>
-        </p>
+  <p style="text-align: justify;">
+    quality:                 1.000000<br>
+    alcohol:                 0.435575<br>
+    pH:                      0.099427<br>
+    sulphates:               0.053678<br>
+    free sulfur dioxide:     0.008158<br>
+    citric acid:            -0.009209<br>
+    residual sugar:         -0.097577<br>
+    fixed acidity:          -0.113663<br>
+    total sulfur dioxide:   -0.174737<br>
+    volatile acidity:       -0.194723<br>
+    chlorides:              -0.209934<br>
+    density:                -0.307123<br>
+  </p>
   <p>We can see the correlation matrix below, which shows the relations between all features in the datasets.</p>
   <img src="./figures/Correlation_Matrix_White_Wine.jpeg" alt="Correlation Matrix for features in Red Wine dataset.">
   <p>Based on the values above, we can see that for White Wine, density is least correlated to the quality, and the alcohol content is the most correlated </p>
-  <p>For both wines, alcohol content is failr correlated to the quality. As for the white wine, more features are negatively correlated to our target feature, telling us that there are more features whose increase may lead to a decrease in the quality of white wine. The negative correlations of white wine are stronger than those of red wine (as the values are larger negatives) further telling us that white wine may be more vulnerable to a change in quality than red wine is, such that it is easier to change the quality of white wine compared to that of red wine.</p>
+  <p>For both wines, alcohol content is fairly correlated to the quality. As for the white wine, more features are negatively correlated to our target feature, telling us that there are more features whose increase may lead to a decrease in the quality of white wine. The negative correlations of white wine are stronger than those of red wine (as the values are larger negatives) further telling us that white wine may be more vulnerable to a change in quality than red wine is, such that it is easier to change the quality of white wine compared to that of red wine.</p>
 
-## MACHINE LEARNING
-The data has been split in the following ways:
+## <b><u>MACHINE LEARNING </u></b>
+<p>The data has been split in the following ways:
 <li>The red wine training data has 1067 rows.</li>
 <li>The red wine test data has 532 rows.</li>
 <li>The white wine training data has 3266 rows.</li>
-<li>The white wine test data has 1631 rows.</li>
+<li>The white wine test data has 1631 rows.</li></p>
 
-### 1. Logistic Regression Model
-<p>The first linear supervised model that is implemented is the Logistic Regression Model. </p>
-CITATIONS
+### <u>Standardizing the data</u>
+<p>Standardization is the process of centering the data around a mean and a standard deviation of 1. I chose standardization instead of normalization as most of the values in the dataset are between 0 and 1, thus before running the machine learning models, I decided to standardize all the features.</p>
 
+### <u>Logistic Regression Model</u>
+<p>The first linear supervised model that is implemented is the Logistic Regression Model. I created two Logistic Regression Objects, one for the Red Wine and the other for the White Wine Data. The data used for this model was not scaled. This is because Logisitic Regression models are not sensitive to the different magnitudes of the features in the datasets.</p>
+<p>I was able to calculate the most important features in the Red and White Wines datasets for the Logistic Regression Model. This helps us better understand the relationship between the features and the target variable. The five most important features in the Red Wine dataset are:
+</p>
+<ol>
+  <li>volatile acidity: 3.1970</li>
+  <li>pH: 2.0139</li>
+  <li>fixed acidity: 1.2706</li>
+  <li>chlorides: 1.174998107796296</li>
+  <li>residual sugar: 1.1293050310318276</li>
+</ol>
+The five most important features in the White Wine dataset are
+<ol>
+  <li>volatile acidity: 2.3773</li>
+  <li>fixed acidity: 1.5483</li>
+  <li>chlorides: 1.0793</li>
+  <li>total sulfur dioxide: 1.0034</li>
+  <li>free sulfur dioxide: 0.5236</li>
+</ol>
+The model that was made to predict the Red Wine Quality has an accuracy of 0.6109, while the model that was made to predict the White Wine Quality has an accuracy of 0.5236.</p>
+
+### <u>Random Forest Classifier Model</u>
+<p>Another supervised learning model, I think that the Random Forest Classifier Model will work well as it reduces the risk of creating a model that over-fits the data as the final output is based on majority ranking. We use the scaled data for this model, as it is best to use scaled data for a classification model. I used a weighted average parameter while calculating the precision_score as the class distribution is imbalanced as we have a multiclass classification problem.</p>
+I was able to calculate the importance of each feature in the Red and White Wine datasets for the Random Forest Classiifer Model. The five most important features in the Red Wine dataset are:</p>
+<ol>
+  <li>alcohol: 0.2846</li>
+  <li>total sulfur dioxide: 0.1685</li>
+  <li>sulphates: 0.1383</li>
+  <li>volatile acidity: 0.1152</li>
+  <li>density: 0.0812</li>
+</ol>
+<p>The five most important features in the White Wine dataset are:</p>
+<ol>
+  <li>alcohol: 0.2083</li>
+  <li>density: 0.1369</li>
+  <li>volatile acidity: 0.13628</li>
+  <li>chlorides: 0.0832</li>
+  <li>free sulfur dioxide: 0.0748</li>
+</ol>
+<p>The precision score calculated for the Red Wine data is 0.6725, and the precision score calculated for the White Wine data is 0.6675.</p>
+
+### <u>SVM Model</u>
+<p>The Support Vector Machine Learning model is another supervised learning model that we use to predict the quality of Red and White Wine.
+I chose this model as it is suited for datasets with large dimensions like the one we have.</p>
+<p>I was able to calculate the importances of each feature in the Red and White Wines datasets for the SVM model. The five most important features in the Red Wine dataset are:</p>
+<ol>
+  <li>density: 0.7129</li>
+  <li>citric acid: 0.6689</li>
+  <li>fixed acidity: 0.5481</li>
+  <li>pH: 0.5346</li>
+  <li>volatile acidity: 0.4818</li>
+</ol>
+<p>The five most important features in the White Wine dataset are:</p>
+<ol>
+  <li>residual sugar: 0.0006</li>
+  <li>fixed acidity: 0.0003</li>
+  <li>pH: 0.0002</li>
+  <li>sulphates: 0.0001</li>
+  <li>chlorides: 7.8437e-5</li>
+</ol>
+
+<p>We can see from the values that while using the SVM model to predict the Quality of WHite Wine, the features play close to a null role in predicting the target variable. </p>
+<p>The score value in classiifcation problems is supposed to be a good indicator of the accuracy with which the class labels are predicted for the data points. The score for the Red Wine training dataset is 0.5998, while the score for the Red Wine test dataset is 0.5695. The score for the White Wine training dataset is 0.5034, while the score for the White Wine test dataset is 0.5695. </p>
+
+## <b><u>CITATIONS</u></b>
 The data sets that are cited below:
   P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. 
   Modeling wine preferences by data mining from physicochemical properties.
